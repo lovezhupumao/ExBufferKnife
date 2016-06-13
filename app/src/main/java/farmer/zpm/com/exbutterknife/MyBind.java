@@ -11,5 +11,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MyBind {
-    int value();//也可以为其他名称，但是为其他名称时候的用法为@MyBind（名称=“”）
+
+    int value();//也可以为其他名称，但是为其他名称时候的用法为@MyBind（名称=“”）.
+
 }
